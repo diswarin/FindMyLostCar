@@ -1,0 +1,46 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# testing
+coverage/
+
+# production
+dist/
+build/
+
+# vite cache
+.vite/
+
+# env files
+.env
+.env.*.local
+
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor folders and system files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# tailwind jit cache
+.tailwindcache/
+
+# optional: if using macOS/Linux
+*.swp
+*.swo
+*.tmp
+
+# optional: if using Windows
+*.log
+*.ps1
+*.bat
+*.cmd
